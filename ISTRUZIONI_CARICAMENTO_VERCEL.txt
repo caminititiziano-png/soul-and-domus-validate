@@ -1,0 +1,66 @@
+SOUL & DOMUS - ISTRUZIONI SEMPLICI PER METTERE IL SITO ONLINE
+
+QUESTA E' LA CARTELLA GIUSTA DA USARE:
+CARICA_QUESTA_CARTELLA_SU_GITHUB_POI_VERCEL_SOUL_DOMUS
+
+NON CARICARE LO ZIP SU VERCEL.
+Vercel normalmente vuole un progetto collegato a GitHub, oppure un deploy da computer.
+Il metodo piu' semplice per te e':
+
+1. Vai su https://github.com
+2. Crea un account o accedi.
+3. Clicca su New repository.
+4. Nome consigliato:
+   soul-domus-website
+5. Scegli Private oppure Public. Private va bene.
+6. Clicca Create repository.
+7. Clicca Add file > Upload files.
+8. Apri questa cartella sul tuo computer:
+   CARICA_QUESTA_CARTELLA_SU_GITHUB_POI_VERCEL_SOUL_DOMUS
+9. Trascina dentro GitHub TUTTO il contenuto della cartella:
+   - assets
+   - index.html
+   - styles.css
+   - script.js
+   - privacy.html
+   - cookie.html
+   - terms.html
+   - robots.txt
+   - sitemap.xml
+   - llms.txt
+   - vercel.json
+10. Clicca Commit changes.
+
+DOPO GITHUB:
+
+1. Vai su https://vercel.com
+2. Clicca Add New Project.
+3. Scegli il repository GitHub:
+   soul-domus-website
+4. Framework Preset:
+   Other
+5. Root Directory:
+   lascia vuoto o usa la root principale.
+6. Build Command:
+   lascia vuoto.
+7. Output Directory:
+   lascia vuoto.
+8. Clicca Deploy.
+
+DOPO IL DEPLOY:
+
+1. Entra nel progetto Vercel.
+2. Vai su Settings > Domains.
+3. Aggiungi:
+   soulanddomus.com
+   www.soulanddomus.com
+4. Vercel ti dira' quali DNS devi mettere dove hai comprato il dominio.
+   Copia esattamente quei record.
+
+NOTA IMPORTANTE:
+Il sito locale http://127.0.0.1:4184 funziona solo sul tuo computer.
+Quando Vercel lo pubblica, userai il dominio online.
+
+EMAIL PUBBLICA DEL SITO:
+hello@soulanddomus.com
+
